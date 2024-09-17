@@ -1,5 +1,8 @@
 markovify==0.3.1
-numpy==1.8.2
-scikit-learn==0.14.1
-scipy==0.13.3
+numpy==1.22.2
+scikit-learn==1.5.0
+scipy==1.10.0rc1
 tweepy==3.5.0
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
